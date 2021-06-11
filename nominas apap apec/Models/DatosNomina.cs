@@ -9,7 +9,10 @@ namespace nominas_apap_apec.Models
     {
         public int id;
         public string nombre;
-        public int cedula;
-        
+        public string cedula;
+        public string cuenta;
+        public string codigo_moneda;
+        public int sueldo;
+
     }
 }
