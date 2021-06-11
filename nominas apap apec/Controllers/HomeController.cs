@@ -28,8 +28,8 @@ namespace nominas_apap_apec.Controllers
         }
 
         //apec
-
-            public void push(DateTime fechaEnvio, DateTime fechaDeposito)
+        [HttpPost]
+        public void push(DateTime fechaEnvio, DateTime fechaDeposito)
             {
                 
                 try
